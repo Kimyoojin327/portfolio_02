@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+:root{
+  --main_font: 'Noto Sans KR';
+  --sub_font: 'Kanit';
+  --point_color: #AACE28;
+  --sub_color01: #F8F8E7;
+  --sub_color02: #A792B5;
+  --whitegray_color: #F4F4F4;
+  --middlegray_color: #A1A1A1;
+  --black_color: #666666;
+}
+
+body{font-family: 'Noto Sans KR'; font-size: 1.6rem; line-height: 1.5; color: #000;}
+#wrap{overflow-x: hidden;}
+.inner{max-width: 1440px; margin: 0 auto;}
