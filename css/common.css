@@ -1,6 +1,21 @@
 @charset "utf-8";
 
-:root{
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e5e5e5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a0a0a0;
+  border-radius: 20px;
+}
+
+::selection {
+  background: var(--point_color);
+  color: #fff;
+}
+
+:root {
   --main_font: 'Noto Sans KR';
   --sub_font: 'Kanit';
   --point_color: #AACE28;
@@ -11,6 +26,18 @@
   --black_color: #666666;
 }
 
-body{font-family: 'Noto Sans KR'; font-size: 1.6rem; line-height: 1.5; color: #000;}
-#wrap{overflow-x: hidden;}
-.inner{max-width: 1440px; margin: 0 auto;}
+body {
+  font-family: 'Noto Sans KR';
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #000;
+}
+
+#wrap {
+  overflow-x: hidden;
+}
+
+.inner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
