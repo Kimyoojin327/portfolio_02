@@ -171,10 +171,6 @@
   color: var(--point_color);
 }
 
-.mgnb_wrap .mgnb>li:nth-child(5)>a {
-  border-bottom: 1px solid var(--point_color);
-}
-
 .mgnb_wrap .mgnb>li .mdepth2 {
   padding: 20px 0;
 }
